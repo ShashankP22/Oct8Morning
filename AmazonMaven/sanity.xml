@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AmazonSuite">
+	
+	<listeners>
+		<listener class-name="extendReport.ExtentTestNGIReporterListener" />
+	</listeners>
+
+  
+   <test thread-count="2" name="TestSuiteAmazon">
+	  <parameter name ="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="testNG.TestNGclass">
+      	
+      	</class>
+    </classes>
+  </test>
+  
+  <!--<test thread-count="2" name="TestSuiteAmazon2">
+	  <parameter name ="Browser" value="Firefox"></parameter>
+    <classes>
+      <class name="testNG.TestNGclass">
+      	
+      	</class>
+    </classes>
+  </test>
+  
+  -->
+
+  
+  
+  
+</suite> <!-- AmazonSuite -->
